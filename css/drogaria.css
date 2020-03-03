@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
 header {
@@ -55,14 +56,18 @@ footer .card-body {
 }
 body {
   margin: 0;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
+  display: block;
+  padding: 0;
+  box-sizing: border-box;
 }
 div {
-  display: block;
+  display: inline-block;
+  width: 100%;
 }
 #imgHome {
   text-align: center;
@@ -92,4 +97,8 @@ main .card {
 }
 main {
   background-color: #9cfefe;
+}
+h3 {
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
