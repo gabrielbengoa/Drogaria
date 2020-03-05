@@ -7,11 +7,12 @@
 header {
   text-align: left;
   background-image: url(../img/drogheader.jpg);
-  background-position: 0;
+  background-position: 100%;
   background-size: 10px;
+  background-position-y: top;
 }
 #imgLogo {
-  width: 15%;
+  width: 10%;
   height: auto;
   padding-top: 20px;
   padding: 50px;
@@ -21,20 +22,19 @@ header {
   margin-top: -200px;
 }
 #imgPopular {
-  width: 15%;
+  width: 10%;
   height: auto;
-  padding-top: 20px;
-  padding: -25px;
+  padding-top: 120px;
   padding-bottom: 15px;
   margin-bottom: -125px;
   margin-top: -200px;
   position: absolute;
-  right: 50px;
+  right: 8px;
 }
 header h2 {
   text-align: center;
   font-family: "Lobster";
-  font-size: 55pt;
+  font-size: 35pt;
   color: #ffc31b;
   padding: 5px;
 }
@@ -55,6 +55,7 @@ footer .card-body {
   text-align: justify;
 }
 body {
+  width: 100%;
   margin: 0;
   font-size: 16px;
   font-weight: 400;
@@ -64,6 +65,7 @@ body {
   display: block;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 div {
   display: inline-block;
@@ -78,13 +80,14 @@ div {
   margin: 0 10px;
   transition: ease 1s;
   opacity: 75%;
+  padding-right: 60px;
 }
 #imgHome img:hover {
   cursor: pointer;
   opacity: 100%;
 }
 main .card-body img {
-  width: 400px;
+  width: 35%;
   height: auto;
 }
 main .card {
